@@ -1,0 +1,207 @@
+﻿/* Import reset.css */
+@import url(reset.css);
+
+/*Color Scheme: http://paletton.com/#uid=23G0u0kD7jmtptevInnLUeKTP98 */
+html {
+	background-color: #DCDCDC;
+	color: black;
+	font-family: 'Times New Roman', 'Times New Roman', serif;
+	font-size: 62.5%;
+}
+
+body {
+	line-height: 1.4;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 5rem;
+	color: #DCDCDC;
+	text-align: center;
+	clear: both;
+	padding: 0.7rem 1.5rem;
+}
+
+h2 {
+	font-size: 2.2rem;
+	color: #492E00;
+	text-align: center;
+}
+
+	h2 a {
+		font-size: inherit;
+	}
+
+h3 {
+	font-size: 2.0rem;
+}
+
+h4 {
+	font-size: 1.8rem;
+}
+
+p {
+	font-size: 1.4rem;
+}
+
+a {
+	font-size: 1.6rem;
+	text-decoration: none;
+}
+
+/* WebPage Layout */
+#WebPage {
+	width: 960px;
+	margin: 1.5rem auto;
+}
+
+/* banner layout */
+#banner {
+	background-color: #072C66;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
+	padding: 1rem 1rem 0 1rem;
+	margin-bottom: 1.5rem;
+}
+
+	#banner a#ITM {
+		float: left;
+	}
+
+	#banner a#port {
+		float: right;
+	}
+
+	#banner a#ITM img {
+		height: 127px;
+		border-radius: 20px;
+	}
+
+
+	#banner a#port img {
+		height: 127px;
+		border-radius: 20px;
+	}
+
+	#banner nav {
+		background-color: #BA7702;
+		border-radius: 10px;
+		padding: 0.5rem 0;
+		overflow: hidden;
+	}
+
+		#banner nav ul {
+			text-align: center;
+		}
+
+		#banner nav li {
+			display: inline;
+		}
+
+		#banner nav a {
+			color: #DCDCDC;
+			padding: 1.0rem 2.0rem;
+		}
+
+			#banner nav a:hover {
+				background-color: #1A4C9A;
+			}
+
+/* Content */
+
+#Wrapper {
+	background-color: #ECECEC;
+	border-radius: 2px;
+	box-shadow: 5px 5px 5px #333333;
+	margin-bottom: 1.5rem;
+	overflow: hidden;
+}
+
+	#Wrapper h2 {
+		padding: 1rem 0;
+	}
+
+#SideLinks {
+	width: 15%;
+	float: left;
+}
+
+	#SideLinks ul {
+		text-align: right;
+	}
+
+	#SideLinks li {
+		padding-bottom: 1rem;
+	}
+
+	#SideLinks a {
+		color: #072C66;
+	}
+
+		#SideLinks a:hover {
+			color: #E99B13;
+			text-decoration: underline;
+		}
+
+/* Blog Articles */
+#Posts {
+	width: 85%;
+	float: right;
+	background-color: white;
+}
+
+	#Posts a {
+		color: #492E00;
+	}
+
+		#Posts a:hover {
+			color: #E99B13;
+			text-decoration: underline;
+		}
+
+	#Posts p {
+		padding: .5rem;
+	}
+
+	#Posts hr {
+		border-color: #eeeeee;
+		border-style: ridge;
+	}
+
+	#Posts footer {
+		padding: .5rem;
+	}
+
+#Footer {
+	background-color: #9A6200;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
+	padding: 1.5rem;
+	height:200px;
+}
+
+	#Footer #MyKid {
+		float: left;
+	}
+
+	#Footer #Lightning {
+		float: right;
+	}
+
+#MyKid img{
+	height: 150px;
+	width: 150px;
+}
+
+#Lightning img{
+	height: 150px;
+	width: 150px;
+}
+
+#Footer p {
+clear:both;
+padding-top:1.0rem;
+text-align:center;
+font-size:1rem;
+font-style:italic;
+}

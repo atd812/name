@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyMasterPage.master.cs" Inherits="MasterPagesAssignment.MasterPages.MyMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title>My Master Page Assignment</title>
+	<link href="../Styles/Main.css" rel="stylesheet" />
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<div id="WebPage">
+		<header id="banner">
+			<a id="ITM" href="#">
+				<img src="../Images/eyeofhorus.jpg" /></a>
+			<a id="port" href="#">
+				<img src="../Images/LogoDesign.jpg" /></a>
+			<h1>My ITM 325 Web Site</h1>
+			<nav>
+				<ul>
+					<li><a href="Home.aspx">Home</ahref></li>
+					<li><a href="#">Classes</ahref></li>
+					<li><a href="#">Resume</ahref></li>
+					<li><a href="#">About</ahref></li>
+					<li><a href="#">Contact</ahref></li>
+					<li><a href="#">Archive</ahref></li>
+					<li><a href="#">Student Info Appe</ahref></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="Wrapper">
+			<aside id="SIdeLinks">
+				<h2>Side Links</h2>
+				<ul>
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+					<li><a href="#">Link 5</a></li>
+				</ul>
+			</aside>
+			<form id="form1" runat="server">
+				<section id="Posts">
+				<asp:ContentPlaceHolder ID="Articles" runat="server">
+				</asp:ContentPlaceHolder>
+					</section>
+			</form>
+		</div>
+
+		<footer id="Footer">
+			<div id="MyKid">
+				<a href="#">
+					<img src="../Images/20181225_120948.jpg" />
+				</a>
+			</div>
+			<div id="Lightning">
+				<a href="#">
+					<img src="../Images/getty_lightening_lightning-485210623-58b9a05e5f9b58af5c794929.jpg" />
+				</a>
+			</div>
+			<div>
+				<p>&copy; Copyright 2017 image search</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
